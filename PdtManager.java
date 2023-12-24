@@ -27,9 +27,9 @@ class Product1{
         quant=0;
     }
 }
-public class ProductManager {
+public class PdtManager {
     public static void main(String[] args) {
-        Product1 pdt=new Product1();
+        Product1 pdt = new Product1();
         pdt.create(101, "Mobile", 10000.0, 100);
         pdt.Read();
         pdt.Update(9999);
