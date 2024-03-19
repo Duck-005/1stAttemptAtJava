@@ -70,6 +70,5 @@ public class RockPaperScissor_game {
             System.out.println("Alas, you've tied with the computer");
         }
         else System.out.println("Alas, you've lost, better luck next time ");
-
     }
 }
