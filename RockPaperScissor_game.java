@@ -4,6 +4,7 @@ public class RockPaperScissor_game {
     Scanner sc = new Scanner(System.in);
     Random random = new Random();
     boolean flag = true;
+    boolean tieFlag = false;
     static int computerMoveNum;
     String computerMove;
     int userInput() {
@@ -19,17 +20,29 @@ public class RockPaperScissor_game {
         }
         return option;
     }
-    RckPprSc_game(){
+    RckPprSc_game() {
         computerMoveNum = random.nextInt(1,3);
     }
     boolean gameResult(int option){
         switch(option){
             case 1: if(computerMoveNum == 2) flag = false;
-                break;
+                    else if(computerMoveNum == option) {
+                        tieFlag = true;
+                        flag = false;
+                    }
+                    break;
             case 2: if(computerMoveNum == 3) flag = false;
-                break;
+                    else if(computerMoveNum == option) {
+                        tieFlag = true;
+                        flag = false;
+                    }
+                    break;
             case 3: if(computerMoveNum == 1) flag = false;
-                break;
+                    else if(computerMoveNum == option) {
+                        tieFlag = true;
+                        flag = false;
+                    }
+                    break;
             default: flag = true;
         }
         return flag;
@@ -52,6 +65,9 @@ public class RockPaperScissor_game {
         flag = game1.gameResult(option);
         if(flag){
             System.out.println("Congrats! you've won ");
+        }
+        else if(game1.tieFlag){
+            System.out.println("Alas, you've tied with the computer");
         }
         else System.out.println("Alas you've lost, better luck next time ");
 
