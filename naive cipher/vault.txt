@@ -10,3 +10,4 @@ Cypher Text : [ǌ, Ƽ, ƴ, Ɣ, Ƽ, Ƹ, Ɣ, Ͽ, ǐ, Ɣ, ư, ư, Ͽ, ƴ, Ɣ, Ͽ, �
 Clear Text : keep the key small or errors occur
 Cypher Text : [͘, ̨, ̨, ΀, Ͽ, Π, ̀, ̨, Ͽ, ͘, ̨, ψ, Ͽ, Θ, ͨ, ̈, ͠, ͠, Ͽ, ͸, ΐ, Ͽ, ̨, ΐ, ΐ, ͸, ΐ, Θ, Ͽ, ͸, ̘, ̘, Ψ, ΐ]
 
+

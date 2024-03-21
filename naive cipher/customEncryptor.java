@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.lang.*;
 import java.io.*;
 public class customEncryptor {
-    final private int key = 3;
+    final private int key = 2;
     String shiftEncrypt(String clearText){
         int[] ASCII_val = new int[clearText.length()];
         char[] temp = new char[clearText.length()];
