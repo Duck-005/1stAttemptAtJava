@@ -1,9 +1,9 @@
-class Product1{
+class Product{
     private int idno;
     private String PdtName;
     private double price;
     private int quant;
-    public void create(int Idno, String name, double cost, int stock){
+    public void Create(int Idno, String name, double cost, int stock){
         PdtName = name;
         idno = Idno;
         quant = stock;
@@ -29,8 +29,8 @@ class Product1{
 }
 public class ProductManager {
     public static void main(String[] args) {
-        Product1 pdt=new Product1();
-        pdt.create(101, "Mobile", 10000.0, 100);
+        Product pdt = new Product();
+        pdt.Create(101, "Mobile", 10000.0, 100);
         pdt.Read();
         pdt.Update(9999);
         pdt.Read();
