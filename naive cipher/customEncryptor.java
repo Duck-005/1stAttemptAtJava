@@ -1,6 +1,4 @@
-import java.util.Arrays;
 import java.util.Scanner;
-import java.lang.*;
 import java.io.*;
 public class customEncryptor {
     final private int key = 2;
@@ -9,13 +7,15 @@ public class customEncryptor {
         char[] temp = new char[clearText.length()];
         for(int i = 0; i < clearText.length(); i++){
             ASCII_val[i] = clearText.charAt(i);
-            if(ASCII_val[i] != 32) {
+            if(ASCII_val[i] <= 47 && ASCII_val[i] >= 32){
+                temp[i] = (char) ASCII_val[i];
+            }
+            else {
                 int shifted = ASCII_val[i] << key;
                 temp[i] = (char) shifted;
             }
-            else temp[i] = (char) 1023;
         }
-        return Arrays.toString(temp);
+        return new String(temp);
     }
     void manageFile(String cypherText, String clearText){
         try {

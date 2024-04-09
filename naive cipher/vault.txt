@@ -1,13 +1,12 @@
 Clear Text : hello there
-Cypher Text : [Ơ, Ɣ, ư, ư, Ƽ, Ͽ, ǐ, Ơ, Ɣ, ǈ, Ɣ]
+Cypher Text : ƠƔưưƼ ǐƠƔǈƔ
 
 Clear Text : I have no idea what I'm doing
-Cypher Text : [Ĥ, Ͽ, Ơ, Ƅ, ǘ, Ɣ, Ͽ, Ƹ, Ƽ, Ͽ, Ƥ, Ɛ, Ɣ, Ƅ, Ͽ, ǜ, Ơ, Ƅ, ǐ, Ͽ, Ĥ, , ƴ, Ͽ, Ɛ, Ƽ, Ƥ, Ƹ, Ɯ]
-
-Clear Text : someone tell me how to print this character array as a string
-Cypher Text : [ǌ, Ƽ, ƴ, Ɣ, Ƽ, Ƹ, Ɣ, Ͽ, ǐ, Ɣ, ư, ư, Ͽ, ƴ, Ɣ, Ͽ, Ơ, Ƽ, ǜ, Ͽ, ǐ, Ƽ, Ͽ, ǀ, ǈ, Ƥ, Ƹ, ǐ, Ͽ, ǐ, Ơ, Ƥ, ǌ, Ͽ, ƌ, Ơ, Ƅ, ǈ, Ƅ, ƌ, ǐ, Ɣ, ǈ, Ͽ, Ƅ, ǈ, ǈ, Ƅ, Ǥ, Ͽ, Ƅ, ǌ, Ͽ, Ƅ, Ͽ, ǌ, ǐ, ǈ, Ƥ, Ƹ, Ɯ]
+Cypher Text : Ĥ ƠƄǘƔ ƸƼ ƤƐƔƄ ǜƠƄǐ Ĥ'ƴ ƐƼƤƸƜ
 
 Clear Text : keep the key small or errors occur
-Cypher Text : [͘, ̨, ̨, ΀, Ͽ, Π, ̀, ̨, Ͽ, ͘, ̨, ψ, Ͽ, Θ, ͨ, ̈, ͠, ͠, Ͽ, ͸, ΐ, Ͽ, ̨, ΐ, ΐ, ͸, ΐ, Θ, Ͽ, ͸, ̘, ̘, Ψ, ΐ]
+Cypher Text : ƬƔƔǀ ǐƠƔ ƬƔǤ ǌƴƄưư Ƽǈ ƔǈǈƼǈǌ Ƽƌƌǔǈ
 
+Clear Text : Unicode is way more complex than I thought.
+Cypher Text : ŔƸƤƌƼƐƔ Ƥǌ ǜƄǤ ƴƼǈƔ ƌƼƴǀưƔǠ ǐƠƄƸ Ĥ ǐƠƼǔƜƠǐ.
 
